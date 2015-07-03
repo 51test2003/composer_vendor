@@ -1,8 +1,9 @@
 # PSR-7 Message Implementation
 
-This repository contains a [PSR-7](http://www.php-fig.org/psr/psr-7/)
+This repository contains a partial [PSR-7](http://www.php-fig.org/psr/psr-7/)
 message implementation, several stream decorators, and some helpful
-functionality like query string parsing.
+functionality like query string parsing.  Currently missing
+ServerRequestInterface and UploadedFileInterface; a pull request for these features is welcome.
 
 
 # Stream implementation
@@ -20,8 +21,8 @@ Reads from multiple streams, one after the other.
 ```php
 use GuzzleHttp\Psr7;
 
-$a = Psr7\steam_for('abc, ');
-$b = Psr7\steam_for('123.');
+$a = Psr7\stream_for('abc, ');
+$b = Psr7\stream_for('123.');
 $composed = new Psr7\AppendStream([$a, $b]);
 
 $composed->addStream(Psr7\stream_for(' Above all listen to me').
