@@ -1651,6 +1651,7 @@ return array(
     'League\\OAuth1\\Client\\Server\\Twitter' => $vendorDir . '/league/oauth1-client/src/Client/Server/Twitter.php',
     'League\\OAuth1\\Client\\Server\\User' => $vendorDir . '/league/oauth1-client/src/Client/Server/User.php',
     'League\\OAuth1\\Client\\Server\\Uservoice' => $vendorDir . '/league/oauth1-client/src/Client/Server/Uservoice.php',
+    'League\\OAuth1\\Client\\Server\\Xing' => $vendorDir . '/league/oauth1-client/src/Client/Server/Xing.php',
     'League\\OAuth1\\Client\\Signature\\HmacSha1Signature' => $vendorDir . '/league/oauth1-client/src/Client/Signature/HmacSha1Signature.php',
     'League\\OAuth1\\Client\\Signature\\PlainTextSignature' => $vendorDir . '/league/oauth1-client/src/Client/Signature/PlainTextSignature.php',
     'League\\OAuth1\\Client\\Signature\\Signature' => $vendorDir . '/league/oauth1-client/src/Client/Signature/Signature.php',
