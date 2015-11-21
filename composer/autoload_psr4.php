@@ -28,6 +28,7 @@ return array(
     'React\\Socket\\' => array($vendorDir . '/react/socket/src'),
     'React\\EventLoop\\' => array($vendorDir . '/react/event-loop'),
     'Ratchet\\' => array($vendorDir . '/cboden/ratchet/src/Ratchet'),
+    'Psy\\' => array($vendorDir . '/psy/psysh/src/Psy'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'Predis\\' => array($vendorDir . '/predis/predis/src'),
     'PhpOffice\\PhpWord\\' => array($vendorDir . '/phpoffice/phpword/src/PhpWord'),
@@ -42,6 +43,7 @@ return array(
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'ClassPreloader\\' => array($vendorDir . '/classpreloader/classpreloader/src'),
+    'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
     'Barryvdh\\LaravelIdeHelper\\' => array($vendorDir . '/barryvdh/laravel-ide-helper/src'),
     'App\\' => array($baseDir . '/app'),
 );
